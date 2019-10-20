@@ -6,7 +6,7 @@ require "Alerts/version"
 Gem::Specification.new do |spec|
   spec.name          = "Alerts"
   spec.version       = Alerts::VERSION
-  spec.authors       = ["'Rachel T'"]
+  spec.authors       = ["'Rachel Taylor'"]
   spec.email         = ["'rachmaybe@gmail.com'"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+  
 end
