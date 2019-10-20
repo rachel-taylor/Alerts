@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["'Rachel Taylor'"]
   spec.email         = ["'rachmaybe@gmail.com'"]
 
-  spec.summary       = %q{Alerts pulls recalls from the FDA}
+  spec.summary       = %q{this is a command line tool that pulls recalls from the FDA}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -37,5 +37,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry", "~> 0.10.4"
+  spec.add_dependency "nokogiri", "~> 1.8"
   
 end
